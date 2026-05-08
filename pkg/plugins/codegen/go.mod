@@ -1,6 +1,6 @@
 module github.com/grafana/grafana/pkg/plugins/codegen
 
-go 1.23.7
+go 1.24.0
 
 replace github.com/grafana/grafana/pkg/codegen => ../../codegen
 
@@ -28,7 +28,7 @@ require (
 	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/oasdiff/yaml v0.0.0-20241210131133-6b86fb107d80 // indirect
@@ -38,15 +38,15 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/perimeterx/marshmallow v1.1.5 // indirect
 	github.com/protocolbuffers/txtpbfmt v0.0.0-20241112170944-20d2c9ebc01d // indirect
-	github.com/rogpeppe/go-internal v1.13.1 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/santhosh-tekuri/jsonschema/v5 v5.3.1 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
 	github.com/yalue/merged_fs v1.3.0 // indirect
-	golang.org/x/mod v0.23.0 // indirect
-	golang.org/x/net v0.36.0 // indirect
-	golang.org/x/oauth2 v0.24.0 // indirect
-	golang.org/x/sync v0.11.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
-	golang.org/x/tools v0.30.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/oauth2 v0.31.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
